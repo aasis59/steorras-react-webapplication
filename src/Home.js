@@ -32,7 +32,11 @@ function Home() {
               </li>
             </ul>
           </div>
-          <img className="navbar-brand" src="./image/image 2.png" />
+          <img
+            className="navbar-brand"
+            src="./image/image 2.png"
+            alt="loading"
+          />
           <button
             class="navbar-toggler"
             type="button"
@@ -51,6 +55,7 @@ function Home() {
                   class="nav-link "
                   aria-current="page"
                   src="./image/magnifying-glass.png"
+                  alt="loading"
                 />
               </li>
               <li class="nav-item">
@@ -58,6 +63,7 @@ function Home() {
                   class="nav-link "
                   aria-current="page"
                   src="./image/user.png"
+                  alt="loading"
                 />
               </li>
               <li class="nav-item">
@@ -65,6 +71,7 @@ function Home() {
                   class="nav-link "
                   aria-current="page"
                   src="./image/love.png"
+                  alt="loading"
                 />
               </li>
               <li class="nav-item">
@@ -72,6 +79,7 @@ function Home() {
                   class="nav-link "
                   aria-current="page"
                   src="./image/shopping-bag.png"
+                  alt="loading"
                 />
               </li>
             </ul>
@@ -92,6 +100,44 @@ function Home() {
           </div>
         </div>
       </nav>
+      <div className="container-fluid container-01">
+        <div className="row">
+          <div className="col-8 ">
+            <img
+              src="./image/TopImage 2.png"
+              alt="loading"
+              
+            />
+          </div>
+          <div className="col-4 pink ">
+            <div className="para-1">Timeless elegance crafted with care</div>
+            <button>shop now</button>
+          </div>
+        </div>
+      </div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-3"><img src="./image/Steorras21549_edited 1.png"alt="loading"/></div>
+          <div className="col-3"> <img src=" ./image/image 23.png"alt="loading"/></div>
+          <div className="col-3"><img src="./image/Layer 47.png"alt="loading"/></div>
+          <div className="col-3"><img src="./image/image 20.png"alt="loading"/></div>
+        </div>
+      </div>
+      <section>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col">
+            <div className="middle">
+              sacascsa
+          </div>
+            </div>
+          </div>
+        
+
+        </div>
+      </section>
+
+
     </div>
   );
 }
