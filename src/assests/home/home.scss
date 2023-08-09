@@ -1,107 +1,46 @@
 @import url("https://fonts.cdnfonts.com/css/safira-march-personal-use");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Work+Sans:wght@400;500;700&display=swap");
 
-section {
+.top-section {
   background-color: #eccac2;
+}
+.nav-section {
 
-  .first {
-    color: #4b4b4b;
-    text-align: center;
-    font-family: Safira March Personal Use;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2.25rem; /* 300% */
-    letter-spacing: 0.075rem;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
-
-    span {
-      color: #4b4b4b;
-      font-family: Work Sans;
-      font-size: 1.5rem;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 2.25rem;
-      letter-spacing: 0.15rem;
+  .navbar-brand {
+    margin-left: 5rem;
+  }
+  .nav-icon {
+    ul {
+      margin-right: 1rem;
+      li {
+        margin-right: 1rem;
+      }
     }
   }
 }
 
-.navbar {
-  img {
-    mix-blend-mode: multiply;
-  }
-  .nav-item {
-    img {
-      margin-left: 0.5rem;
-    }
-  }
-}
-.navbar-01 {
-  #navbarText {
-    justify-content: center;
-  }
-  .nav-item {
+.nav-second {
+  display: flex;
+  justify-content: center;
+  margin-top:0.5rem;
+  
+
+
+  .collapse{
     color: #333;
     text-align: center;
     font-family: Work Sans;
-    font-size: 1.125rem;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 2.25rem; /* 200% */
-    letter-spacing: 0.1125rem;
+    line-height: 36px; 
+    letter-spacing: 1.8px;
     text-transform: uppercase;
-    text-align: center;
-    padding-left: 2rem;
-  }
-}
-
-.container-01 {
-  img{
-    background-size: cover;
-  }
-  .pink {
-    background-color: #eccac2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center !important;
-
-    .para-1 {
-      color: #4b4b4b;
-      text-align: center;
-      font-family: Safira March Personal Use;
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      letter-spacing: 1.8px;
+    ul{
+      li{
+        margin-left: 3rem;
+      }
     }
-    
 
-      button{
-        color: #4b4b4b;
-        text-align: center;
-        font-family: Work Sans;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 1.8px;
-        text-transform: uppercase;
-        
-        margin-top: 5rem;
-        border-radius: 10px; 
-    }
-  }
-}
-
-section{
-  .middle{
-    background-image:url("./image 25.png");
-    max-width:600px;
-    height:600px;
   }
 }
