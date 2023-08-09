@@ -20,7 +20,7 @@ function Home() {
       <section className="nav-section mt-3">
         <div class="container-fluid">
           <div className="row">
-            <div className="col-3">
+            <div className="col-3 ">
               <select >
                 <option selected>Canda(CAD$)</option>
                 <option value="1">US(US$)</option>
@@ -28,17 +28,19 @@ function Home() {
               </select>
             </div>
 
-            <div class="col-4 offset-2 ">
+            <div class="col-4 offset-2 flow-01 ">
               <img
                 src="./image/image 2.png"
-                alt="loading" style={{maxWidth:"70%" ,objectFit:"cover"}}
+                alt="loading" style={{width:"70%" ,objectFit:"cover"}}
               />
             </div>
             <div class="col-3">
-              <img src="./image/magnifying-glass.png" alt="loading"   />
-              <img src="./image/user.png" alt="loading"className="ms-4" />
-              <img src="./image/love.png" alt="loading" className="ms-4" />
-              <img src="./image/shopping-bag.png" alt="loading" className="ms-4" />
+              <div className=" d-flex flow ">
+                <img src="./image/magnifying-glass.png" alt="loading" className="me-4"   />
+              <img src="./image/user.png" alt="loading"className="me-4" />
+              <img src="./image/love.png" alt="loading" className="me-4" />
+              <img src="./image/shopping-bag.png" alt="loading" className="me-4" />
+              </div>
             </div>
           </div>
         </div>
@@ -271,13 +273,10 @@ function Home() {
                   Sign up for exclusive offers, original stories, events and
                   more.
                 </p>
-                <input
-                  type="email"
-                  class="form-control"
-                  name="email"
-                  id="email"
-                  placeholder="EMAIL"
-                />
+                <div className="input-01">
+                  Email
+
+                </div>
                 <div class="d-flex float-sm-end ">
                   <button
                     type="submit"
@@ -295,13 +294,13 @@ function Home() {
             <img
               src="/image/icon.png"
               alt="loading"
-              class="pb-xxl-4 pb-xl-2 pb-md-3"
+            
             />
             <p>
               Privacy Policy | Refund Policy | Shipping Policy | Terms of
               Service
             </p>
-            <p>© 2023 Steorras.</p>
+            <h6>© 2023 Steorras.</h6>
           </div>
         </section>
       </footer>
