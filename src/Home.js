@@ -36,10 +36,10 @@ function Home() {
             </div>
             <div class="col-3">
               <div className=" d-flex flow ">
-                <img src="./image/magnifying-glass.png" alt="loading" className="me-4"   />
-              <img src="./image/user.png" alt="loading"className="me-4" />
-              <img src="./image/love.png" alt="loading" className="me-4" />
-              <img src="./image/shopping-bag.png" alt="loading" className="me-4" />
+                <img src="./image/magnifying-glass.png" alt="loading" className="me-3"   />
+              <img src="./image/user.png" alt="loading"className="me-3" />
+              <img src="./image/love.png" alt="loading" className="me-3" />
+              <img src="./image/shopping-bag.png" alt="loading" className="me-3" />
               </div>
             </div>
           </div>
